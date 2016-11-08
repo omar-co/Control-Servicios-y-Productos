@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59739594-d387-420f-a42d-02b241596b01" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Gastos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Ingresos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Gasto_categorias_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Gasto_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Ingreso_categorias_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Ingreso_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/gastos_categorias_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/gastos_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/ingresos_categorias_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/ingresos_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="camerino.iws" />
@@ -396,7 +386,13 @@
       <option name="project" value="LOCAL" />
       <updated>1478564189656</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se añade Ingresos y Gastos">
+      <created>1478582879084</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478582879084</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -436,7 +432,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aun falta" />
     <MESSAGE value="inicial&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="inicial&#10;" />
+    <MESSAGE value="Se añade Ingresos y Gastos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se añade Ingresos y Gastos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
