@@ -1,64 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59739594-d387-420f-a42d-02b241596b01" name="Default" comment="aun falta">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Clientes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Productos.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Reportes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/controllers/Servicios.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Cliente_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Producto_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/models/Servicio_model.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/cliente_editar_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/clientes_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/demo_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/producto_editar_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/productos_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/servicio_editar_view.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/servicios_view.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular-4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular-5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regular.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/fonts/glyphicons-halflings-regulard41d.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/nanoscroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont78ce.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont78ce.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont78ce.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont78ce.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfontd41d.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/weathericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/weathericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/weathericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/weathericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/fonts/weathericons-regular-webfontd41d.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/jquery.nanoscroller.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/pace.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/scripts.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/logo.png" afterPath="$PROJECT_DIR$/assets/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/camerino.zip" afterPath="$PROJECT_DIR$/camerino.zip" />
+    <list default="true" id="59739594-d387-420f-a42d-02b241596b01" name="Default" comment="inicial&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/database.php" afterPath="$PROJECT_DIR$/application/config/database.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/auth/login.php" afterPath="$PROJECT_DIR$/application/views/auth/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/base/footer_view.php" afterPath="$PROJECT_DIR$/application/views/base/footer_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/base/general_view.php" afterPath="$PROJECT_DIR$/application/views/base/general_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/base/header_view.php" afterPath="$PROJECT_DIR$/application/views/base/header_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/base/menu_view.php" afterPath="$PROJECT_DIR$/application/views/base/menu_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/base/navbar_view.php" afterPath="$PROJECT_DIR$/application/views/base/navbar_view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/dashboard.php" afterPath="$PROJECT_DIR$/application/views/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/font-awesome.css" afterPath="$PROJECT_DIR$/assets/css/font-awesome.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/theme_styles.css" afterPath="$PROJECT_DIR$/assets/css/theme_styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" />
     </list>
     <ignored path="camerino.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,7 +57,7 @@
       <file leaf-file-name="Cliente_model.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/Cliente_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33452594">
+            <state vertical-scroll-proportion="0.52380955">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
@@ -137,7 +81,9 @@
         <option value="Omar Coronado" />
       </list>
     </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -349,7 +295,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -388,18 +334,25 @@
       <option name="number" value="Default" />
       <updated>1475812564561</updated>
     </task>
+    <task id="LOCAL-00001" summary="inicial&#10;">
+      <created>1478563984120</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1478563984120</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172465" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -426,7 +379,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="aun falta" />
-    <option name="LAST_COMMIT_MESSAGE" value="aun falta" />
+    <MESSAGE value="inicial&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="inicial&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -912,7 +866,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/Cliente_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33452594">
+        <state vertical-scroll-proportion="0.52380955">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
