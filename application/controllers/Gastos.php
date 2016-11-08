@@ -19,11 +19,51 @@ final class Gastos extends MY_Controller
         $this->_data['title'] = 'Gastos';
         $this->_data['form'] = $this->_formfields();
 
-        array_unshift($this->_data['estilos'],'jquery.dataTables.min','datatables.bootstrap.min');
-        array_push($this->_data['js_footer'],'jquery.dataTables.min','dataTables.bootstrap','input');
+        array_unshift($this->_data['estilos'],'daterangepicker','jquery.dataTables.min','datatables.bootstrap.min');
+        array_push($this->_data['js_footer'],'moment.min','daterangepicker','jquery.dataTables.min','dataTables.bootstrap','input');
         $this->_data['js_code'] = '
             $(document).ready(function(){
     $(\'#gastos\').DataTable();
+});
+
+$(function() {
+    $(\'input[name="fecha"]\').daterangepicker({
+        singleDatePicker: true,
+        "locale": {
+        "format": "DD/MM/YYYY",
+        "separator": " - ",
+        "applyLabel": "Aceptar",
+        "cancelLabel": "Cancelar",
+        "fromLabel": "De",
+        "toLabel": "A",
+        "customRangeLabel": "Personalizar",
+        "weekLabel": "S",
+        "daysOfWeek": [
+            "Do",
+            "Lu",
+            "Ma",
+            "Mi",
+            "Ju",
+            "Vi",
+            "Sa"
+        ],
+        "monthNames": [
+            "Enero",
+            "Febrero",
+            "Marzo",
+            "Abril",
+            "Mayo",
+            "Junio",
+            "Julio",
+            "Augosto",
+            "Septiembre",
+            "Octubre",
+            "Noviembre",
+            "Diciembre"
+        ],
+        "firstDay": 1
+    }
+    });
 });
         ';
 
